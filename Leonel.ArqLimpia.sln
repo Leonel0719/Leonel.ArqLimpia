@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.EN", "Leonel.ArqLimpia.EN\Leonel.ArqLimpia.EN.csproj", "{188B3659-73DD-450F-9ED9-E69D40E68BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{4A9585E4-3292-4362-BF72-0151A0E43BF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapter", "Interface Adapter", "{E0CC4EAB-9E9A-4815-855D-0CE96F9DE5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworksDrivers", "FrameworksDrivers", "{1FEA252E-D8B3-4DB3-9513-42B3BCF3B0C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{1DDA80BE-E1B5-4A29-A592-D43773A8C0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.EN.Interfaces", "Leonel.ArqLimpia.EN.Interfaces\Leonel.ArqLimpia.EN.Interfaces.csproj", "{7D8B4325-7027-48FA-ABB5-18D7A00A939E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.BL", "Leonel.ArqLimpia.BL\Leonel.ArqLimpia.BL.csproj", "{30761750-6A52-44D6-B1D8-B5860165140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.BL.Interfaces", "Leonel.ArqLimpia.BL.Interfaces\Leonel.ArqLimpia.BL.Interfaces.csproj", "{795495EB-74B3-4C42-9845-F158899D823D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.BL.DTOs", "Leonel.ArqLimpia.BL.DTOs\Leonel.ArqLimpia.BL.DTOs.csproj", "{B052144C-3227-4F5A-85D8-B696067387D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.DAL", "Leonel.ArqLimpia.DAL\Leonel.ArqLimpia.DAL.csproj", "{B3E366F9-9563-4617-998B-6F2EDAEBA859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.IoC", "Leonel.ArqLimpia.IoC\Leonel.ArqLimpia.IoC.csproj", "{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonel.ArqLimpia.API", "Leonel.ArqLimpia.API\Leonel.ArqLimpia.API.csproj", "{DBA117CD-44C3-4910-BF9E-169BAD505106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{188B3659-73DD-450F-9ED9-E69D40E68BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188B3659-73DD-450F-9ED9-E69D40E68BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188B3659-73DD-450F-9ED9-E69D40E68BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188B3659-73DD-450F-9ED9-E69D40E68BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8B4325-7027-48FA-ABB5-18D7A00A939E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8B4325-7027-48FA-ABB5-18D7A00A939E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8B4325-7027-48FA-ABB5-18D7A00A939E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8B4325-7027-48FA-ABB5-18D7A00A939E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30761750-6A52-44D6-B1D8-B5860165140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30761750-6A52-44D6-B1D8-B5860165140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30761750-6A52-44D6-B1D8-B5860165140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30761750-6A52-44D6-B1D8-B5860165140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795495EB-74B3-4C42-9845-F158899D823D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795495EB-74B3-4C42-9845-F158899D823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795495EB-74B3-4C42-9845-F158899D823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795495EB-74B3-4C42-9845-F158899D823D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B052144C-3227-4F5A-85D8-B696067387D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B052144C-3227-4F5A-85D8-B696067387D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B052144C-3227-4F5A-85D8-B696067387D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B052144C-3227-4F5A-85D8-B696067387D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E366F9-9563-4617-998B-6F2EDAEBA859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E366F9-9563-4617-998B-6F2EDAEBA859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E366F9-9563-4617-998B-6F2EDAEBA859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E366F9-9563-4617-998B-6F2EDAEBA859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA117CD-44C3-4910-BF9E-169BAD505106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA117CD-44C3-4910-BF9E-169BAD505106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA117CD-44C3-4910-BF9E-169BAD505106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA117CD-44C3-4910-BF9E-169BAD505106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{188B3659-73DD-450F-9ED9-E69D40E68BD7} = {4A9585E4-3292-4362-BF72-0151A0E43BF4}
+		{7D8B4325-7027-48FA-ABB5-18D7A00A939E} = {4A9585E4-3292-4362-BF72-0151A0E43BF4}
+		{30761750-6A52-44D6-B1D8-B5860165140F} = {1DDA80BE-E1B5-4A29-A592-D43773A8C0E2}
+		{795495EB-74B3-4C42-9845-F158899D823D} = {1DDA80BE-E1B5-4A29-A592-D43773A8C0E2}
+		{B052144C-3227-4F5A-85D8-B696067387D8} = {1DDA80BE-E1B5-4A29-A592-D43773A8C0E2}
+		{B3E366F9-9563-4617-998B-6F2EDAEBA859} = {E0CC4EAB-9E9A-4815-855D-0CE96F9DE5F0}
+		{6BD0E691-6A93-464C-9071-A2BDC6D1E3DC} = {E0CC4EAB-9E9A-4815-855D-0CE96F9DE5F0}
+		{DBA117CD-44C3-4910-BF9E-169BAD505106} = {1FEA252E-D8B3-4DB3-9513-42B3BCF3B0C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52F7271E-C256-42EE-A852-43364E3B1752}
+	EndGlobalSection
+EndGlobal

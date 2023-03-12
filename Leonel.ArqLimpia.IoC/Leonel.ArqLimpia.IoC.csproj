@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Leonel.ArqLimpia.BL\Leonel.ArqLimpia.BL.csproj" />
+    <ProjectReference Include="..\Leonel.ArqLimpia.DAL\Leonel.ArqLimpia.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
